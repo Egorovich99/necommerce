@@ -26,8 +26,8 @@ jobs:
       fail-fast: false
       matrix:
         language:
-          - java
-          - javascript
+          - kotlin
+          - java-kotlin
     steps:
     - name: Check out repository
       uses: actions/checkout@v4
